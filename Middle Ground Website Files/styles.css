@@ -1,0 +1,78 @@
+body {
+    background-color: black;
+    color: gray;
+    font-family: verdana;
+    position: relative;
+    top: 50px;
+}
+
+.footer {
+    color:teal;
+    font-family: verdana;
+    text-align: center;
+}
+
+h2 {
+    color:white;
+    font-family: georgia;
+    font-size: 35px;
+}
+
+h3 {
+    color:teal;
+    font-family: georgia;
+    font-size: 20px;
+}
+
+h4 {
+    color: white;
+    font-family:verdana;
+}
+
+.options {
+    font-style: italic;
+    color: gray;
+}
+
+.titles {
+    font-size: 20px;
+    font-family: verdana;
+}
+
+
+a:link {
+    color: teal;
+    font-family: verdana;
+}
+a:visited {
+    color: teal;
+}
+a:hover {
+    color: white;
+    font-style: italic;
+}
+
+.sidebar {
+    padding: 10px 30px;
+    border: 3px dotted white;
+    width: 220px;
+    position: absolute;
+    top: -20px;
+    left: 50px;
+}
+
+.content {margin: 20px auto;
+       width: 800px;
+}
+
+.image {text-align:center;
+        margin: 0px;
+        padding: 0px;
+        float: center;
+}
+
+.header {margin: 30px auto;
+         width: 800px;
+         text-align: center;
+}
+
