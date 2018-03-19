@@ -2,11 +2,11 @@
 
 <h2>Synopsis</h2>
 
-Middle Ground is a program that allows users to input two addresses and find a restaurant within 500 meters of the midpoint, simplifying the process of meeting up with friends who might not live in the same area of the city. While this project is still a work in progress, it is currently fully functional for use in major urban areas such as Philadelphia.
+Middle Ground is a program that allows users to input two addresses and find a restaurant within 500 meters of the midpoint, simplifying the process of meeting up with friends who might not live in the same area of the city or in different towns. Middle Ground is currently fully functional for use in major urban areas such as Philadelphia, New York, and their suburbs. The program has recently been updated to automatically expand the acceptable radius to 5000 meters if there is not a dining establishment within 500 meters of the midpoint, allowing for greater flexibility when used in suburban areas or when traveling between different cities and towns.
 
-Middle Ground uses Python 3 to connect with the GoogleMaps Directions API and Google Places API, returning information from the JSON data.
+Middle Ground uses Python 3 to connect with the GoogleMaps Directions API and Google Places API, returning the JSON response.
 
-As Middle Ground is still in the development and debugging stage, there are a few best practices to keep in mind while using the program. It is best suited for use in densely populated urban areas where it would be rare not to have a dining establishment within 500 meters of any address. Middle Ground also works best when both addresses are located in the same major city, since locations separated by a long stretch of highway may not have a rest stop near the midpoint. 
+There are a few best practices to keep in mind while using Middle Ground. It is best suited for use in densely populated areas where it would be rare not to have a dining establishment within 500 (or 5000) meters of any address. Even if both addresses are in urban areas, long distances can affect the functionality of this program. For example, if you are traveling from Brooklyn to meet up with a friend from Los Angeles, Middle Ground might not be able to find a restaurant if the midpoint is in a very rural area of the midwest.
 
 <h2>Motivation</h2>
 
@@ -14,7 +14,7 @@ As a resident of Philadelphia for nearly seven years, I have noticed a reoccurri
 
 <h2>Installation</h2>
 
-Middle Ground was developed for Mac OS X and uses Python 3. If you do not have Python 3 already installed on your computer, you can install the latest version from www.python.org.
+Middle Ground uses Python 3. If you do not have Python 3 already installed on your computer, you can install the latest version from www.python.org.
 
 The following libraries must also be installed in your Python interpreter before running Middle Ground. 
 
