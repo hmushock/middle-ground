@@ -97,7 +97,7 @@ while restart != "X" and restart != "x":
         if list_places_dict['status'] == 'OK':
             #Checking to make sure there an establishment is found within 5000 meters of the midpoint
             place_id = list_places_dict['results'][0]['place_id']
-            #This pulls the Place ID of the first result on the list of bars and restaurants within 500 meters of the middle point
+            #This pulls the Place ID of the first result on the list of bars and restaurants within 5000 meters of the middle point
             place_details = requests.get('https://maps.googleapis.com/maps/api/place/details/json?placeid=' + str(place_id) + '&key=' + str(PLACES_API_KEY))
             place_details = place_details.json()
 
